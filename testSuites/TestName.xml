@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test">
+
+    <listeners>
+        <listener class-name="automationProjectTest.testComponents.Listeners"/>
+    </listeners>
+
+
+    <test name="Login and Logout Test">
+        <classes>
+            <class name="automationProjectTest.testCases.TestPageTestCase">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
