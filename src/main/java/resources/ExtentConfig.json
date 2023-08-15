@@ -1,0 +1,13 @@
+{
+  "theme": "DARK",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": true,
+  "offlineMode": true,
+  "thumbnailForBase64": true,
+  "documentTitle": "Test Automation Reports",
+  "reportName": "Test Automation Reports",
+  "timeStampFormat": "EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'",
+  "js": "document.getElementsByClassName('logo')[0].style.display='none';",
+  "css": ".badge-primary{background-color:#ed5045} .badge-success, .pass-bg, .avatar.pass{background-color:#28be3b}"
+}

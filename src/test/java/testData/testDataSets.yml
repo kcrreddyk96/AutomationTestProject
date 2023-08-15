@@ -1,0 +1,34 @@
+AssertEmailPresent:
+  Email: Test@Test
+  AssertValidation: 'Email address'
+
+AssertPasswordPresent:
+  Password: 'Test@123'
+  AssertValidation: Password
+
+LoginWorkFlowTest:
+  Email: Test@Test
+  Password: 'Test@123'
+
+VerifyingListValues:
+  ListName: 'List Item 2'
+  ExpectedData: 'List Item 2'
+
+VerifyingListBatchValues:
+  ListName: 'List Item 2'
+  ExpectedBatch: '6'
+
+Option1Selected:
+  ExpectedOption: 'Option 1'
+
+Option3Selected:
+  ExpectedOption: 'Option 3'
+
+VerifyButtonAlertMessage:
+  ExpectedMessage: 'You clicked a button!'
+
+VerifyTableValues:
+  ItemName: Ventosanzap
+
+VerifyWithWrongData:
+  ItemName: WrongAnswer
